@@ -8,7 +8,7 @@ import (
 
 func main() {
 	log.Print("This Program is executed command!\n")
-	out := exec.Command("sleep", "2")
+	command := exec.Command("sleep", "2")
 	error := command.Start()
 
 	if error != nil {
@@ -17,7 +17,7 @@ func main() {
 
 	log.Printf("Command start!")
 
-	erorr = command.Wait()
+	error = command.Wait()
 
 	if error != nil {
 		panic(fmt.Sprintf("Error2: %v", error))

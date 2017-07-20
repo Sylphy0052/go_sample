@@ -30,3 +30,12 @@ import (
 fmt.Println("hello world")
 
 ```
+### iota
+- 連続した数値を定義する
+```
+const (
+    foo = iota   // foo = 0
+    bar          // bar = 1
+    baz          // bar = 2
+)
+```

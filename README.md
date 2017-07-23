@@ -1,5 +1,11 @@
 # go_sample
+## 参考
+- [参考1](http://www.geocities.jp/m_hiroi/golang/index.html)
+- [参考2](https://oohira.github.io/gobyexample-jp/)
+
 ## goをMacにインストール(How to install Go language)
+
+  [b4b5a062]: http://www.geocities.jp/m_hiroi/golang/index.html "title"
 
 `brew install go --cross-compile-common`
 <br>クロスコンパイル可能な状態でGoをインストールすることで，MacからLinuxにデプロイすることが可能となる

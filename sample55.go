@@ -4,7 +4,7 @@ import(
   "fmt"
 )
 
-// 引数のスライス全てに渡した関数を適用する関数を返す
+// 引数のスライス全てに，渡した関数を適用する関数を返す
 func mapcar(f func(x int) int) func([]int) []int {
   return func(ary []int) []int {
     buff := make([]int, len(ary))

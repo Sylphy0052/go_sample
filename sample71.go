@@ -27,6 +27,12 @@ func check(p Point) float64 {
   return p.x
 }
 
+func newPoint(x, y float64) *Point {
+  p := new(Point)
+  p.x, p.y = x, y
+  return p
+}
+
 func main() {
   // 初期値は0
   // var p Point                          // p := Point{}
